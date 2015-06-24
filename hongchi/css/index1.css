@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+
+/*-------------------------------------------清除默认*/
+.container{ width:1000px; margin:0 auto}
+.header{ height:550px; background:url(../images/body_Bg.jpg) no-repeat center 0;}
+.banner{ height:386px;}
+.article{ height:500px;}
+.article .one, .two{ height:250px; width:100%;/* border:1px solid #096*/}
+
+.article .one .sec1{ height:250px; width:350px; float:left}
+.article .one .sec2{ height:250px; width:620px; float:left; margin-left:30px}
+
+.footer{ height:25px; background:url(../images/foot_Bg.gif) repeat-x;}
+
+.header .container .pic1{ padding-top:40px; padding-left:40px; margin-bottom:20px}
+
+.header .container ul{ background:url(../images/nav_Bg.gif) repeat-x; height:34px} 
+.header .container ul li{ height:34px; line-height:34px; width:142px; background:url(../images/li_Bg.gif) no-repeat; float:left; 
+    text-align:center}
+.header .container ul li a{ color:#FFF; font-size:14px; display:block}
+.header .container ul li a:hover{ text-decoration:none}
+.header .container .pic2{padding-left:20px}
+
+/*.article{ height:480px; width:auto }*/
+
+
+.article .tt span a{ color:#06C; font-weight:600; font-size:14px}
+.article .tt span{ color:#666}
+.article .tt em a{ color:#06C; margin-left:200px}
+.article .tt .em1{ margin-left:5px}
+.article .title{ height:2px; width:350px; border-bottom:1px solid #999; margin-top:7px}
+.article .tt a:hover{ color:#666; text-decoration:none;}
+
+.article .one .sec1 table .pic3{ padding:12px 5px}
+.article .one .sec1 table .t2{ width:110px; text-align:right; color:#666;}
+.article .one .sec1 table tr{ height:25px; line-height:25px }
+.article .one .sec1 table td a{ color:#666}
+.article .one .sec1 table td a:hover{ text-decoration:none; color:#606}
+
+.article .one .sec2 .title{ width:630px}
+.article .one .sec2 .tt em a{ margin-left:430px}
+.article .one .sec2 .pic4{ margin-top:20px}
+.article .one .sec2 .pic5{ margin-right:20px}
+.article .one .sec2 .pic4 .t3{ text-indent:2em; line-height:25px; color:#666;}
+
+
+.article .two .ss{ height:30px}
+.article .two .ss span a{ color:#06C; font-weight:600; font-size:14px}
+.article .two .ss span{ color:#666}
+.article .two .ss em a{ color:#06C; margin-left:830px}
+.article .two .ss .em1{ margin-left:5px}
+.article .two .title{ height:2px; width:1000px; border-bottom:1px solid #999; margin-top:7px}
+.article .two .ss a:hover{ color:#666; text-decoration:none;}
+
+/*.article .two .title{ width:1000px}
+.article .two .tt em a{ margin-left:830px}
+*/
+.article .two table{ margin-top:20px}
+.article .two .tr1 td{ height:126px; width:221px; padding-left:20px;}
+.article .two .tr1 td img{ border:1px solid #999;}
+.article .two .tr2 td{ width:220px; text-align:center; height:25px; line-height:25px}
+.article .two .tr2 a{ color:#666}
+.article .two .tr2 a:hover{ color:#06C; text-decoration:none}
+
+.footer .container p{ text-align:center; padding-top:20px; color:#666;}
+
+
+
+
+
+
+
+
